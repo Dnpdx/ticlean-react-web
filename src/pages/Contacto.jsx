@@ -1,4 +1,4 @@
-import MapboxCard from '../components/MapboxCard';
+import MapboxCard from "../components/MapboxCard"
 import { useState } from 'react';
 import emailjs from '@emailjs/browser';
 import { useFormik } from 'formik';

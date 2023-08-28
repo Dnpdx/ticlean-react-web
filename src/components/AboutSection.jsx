@@ -6,7 +6,7 @@ const AboutSection = () => {
     return (
       <div className="lg:mx-16 sm:mx-auto">
           <div className="container flex p-8 bg-white">
-          <div className="px-4 py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
+          <div className="py-16 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 lg:py-20">
                 <div className="grid gap-10 lg:grid-cols-2">
                   <div className="lg:pr-10">
                     <a
@@ -25,7 +25,7 @@ const AboutSection = () => {
                     ¿Quiénes Somos?
                       
                     </h5>
-                    <p className="mb-6 font-normal text-gray-900">
+                    <p className="mb-6 font-light text-gray-900">
                     Somos una empresa sustentable especializada en servicios de limpieza, comprometidos en crear ambientes sanos y áreas limpias, así como brindarle solución en servicios de Tecnología e Informática, Energías Renovables y de Sistemas de Seguridad.
                     Nos adaptamos a diferentes sectores de manera profesional, enfocándonos siempre en el logro de los objetivos a través de bajos costos de operación y mejorando la rentabilidad del negocio, ofreciendo siempre servicios y soluciones de calidad de acuerdo a las necesidades de cada uno de nuestros clientes. 
                     </p>
@@ -63,67 +63,55 @@ const AboutSection = () => {
               </div>
             </div>
                   {/* POLITICA DE CALIDAD */}
-                  <div className=" py-8 md:mx-24 sm:mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl">
-                    <div className="flex flex-col lg:flex-row">
-                      <div className="md:max-w-xl pr-16 sm:mx-auto mb-10">
-                        <h5 className="mb-6 text-4xl font-extrabold leading-none">
-                          Nuestra Politica de Calidad
-                        </h5>
-                        <p className="mb-6 font-normal text-gray-900">
-                        En TI Clean & Business SA de CV, estamos comprometidos en ser la mejor solución de limpieza especializada y desinfección que logre comprender las necesidades de nuestros clientes,
+                  <div className="px-4 mx-auto sm:max-w-xl md:max-w-full lg:max-w-screen-xl md:px-24 lg:px-8 ">
+                    <div className="max-w-xl mb-10 md:mx-auto sm:text-center lg:max-w-2xl md:mb-12">
+                     
+                      <h2 className="max-w-lg mb-6 font-sans text-3xl font-bold leading-none tracking-tight text-gray-900 sm:text-4xl md:mx-auto">
+                      
+                        Nuestra politica de calidad
+                      </h2>
+                      <p className="text-base text-gray-700 md:text-md sm:text-sm">
+                      En TI Clean & Business SA de CV, estamos comprometidos en ser la mejor solución de limpieza especializada y desinfección que logre comprender las necesidades de nuestros clientes,
                          a nivel industrial, comercial y de hospitales, cumpliendo con los requisitos legales, ejecutando acciones para la mejora continua de nuestros procesos con innovación, vanguardia y 
                          permita aumentar la satisfacción de nuestros clientes. <br></br> Cómo parte de la planeación estratégica de la organización y en apoyo a la política de calidad, en TI Clean Business SA de CV, nos hemos propuesto los siguientes objetivos de calidad:
-                        </p>
-                        
-                      </div>
-                      <div className="grid gap-5 row-gap-5 sm:grid-cols-2">
-                        <div className="max-w-md">
-                          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                          <svg className="w-6 h-6 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                            <path d="M18 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.546l3.2 3.659a1 1 0 0 0 1.506 0L13.454 14H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-8 10H5a1 1 0 0 1 0-2h5a1 1 0 1 1 0 2Zm5-4H5a1 1 0 0 1 0-2h10a1 1 0 1 1 0 2Z"/>
-                          </svg>
-                          </div>
-                         
-                          <p className="text-sm text-gray-700">
-                          1.- Obtener en 2023 la certificación del sistema de gestión de calidad y mantenerla en 2024.
-                          </p>
-                        </div>
-                        <div className="max-w-md">
-                          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                          <svg className="w-6 h-6 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                            <path d="M18 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.546l3.2 3.659a1 1 0 0 0 1.506 0L13.454 14H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-8 10H5a1 1 0 0 1 0-2h5a1 1 0 1 1 0 2Zm5-4H5a1 1 0 0 1 0-2h10a1 1 0 1 1 0 2Z"/>
-                          </svg>
-                            </div>
-                          
-                          <p className="text-sm text-gray-700">
-                          2.- Brindar capacitación y adiestramiento al 100 % del personal de la compañía para el desarrollo de sus habilidades en 2023.
-                          </p>
-                        </div>
-                        <div className="max-w-md">
-                          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                          <svg className="w-6 h-6 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                            <path d="M18 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.546l3.2 3.659a1 1 0 0 0 1.506 0L13.454 14H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-8 10H5a1 1 0 0 1 0-2h5a1 1 0 1 1 0 2Zm5-4H5a1 1 0 0 1 0-2h10a1 1 0 1 1 0 2Z"/>
-                          </svg>
-                          </div>
-                          
-                          <p className="text-sm text-gray-700">
-                          3.- Mantener en 2023 el control de nuestros procesos dentro de los parámetros establecidos por la organización de acuerdo con sus respectivos indicadores de desempeño.
-                          </p>
-                        </div>
-                        <div className="max-w-md">
-                          <div className="flex items-center justify-center w-16 h-16 mb-4 rounded-full bg-indigo-50">
-                          <svg className="w-6 h-6 text-blue-600" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="currentColor" viewBox="0 0 20 18">
-                            <path d="M18 0H2a2 2 0 0 0-2 2v10a2 2 0 0 0 2 2h3.546l3.2 3.659a1 1 0 0 0 1.506 0L13.454 14H18a2 2 0 0 0 2-2V2a2 2 0 0 0-2-2Zm-8 10H5a1 1 0 0 1 0-2h5a1 1 0 1 1 0 2Zm5-4H5a1 1 0 0 1 0-2h10a1 1 0 1 1 0 2Z"/>
-                          </svg>
-                          </div>
-                          
-                          <p className="text-sm text-gray-700">
-                          4 .- Mantener contratado al 90 % del personal de limpieza para no afectar el desarrollo de las operaciones ni del programa de trabajo de 2023.
-                          </p>
-                        </div>
-                      </div>
+                      </p>
                     </div>
+                    <div className="grid gap-8 row-gap-5 mb-8 md:row-gap-8 lg:grid-cols-4 sm:grid-cols-2">
+                      <div className="duration-300 transform bg-white border-l-4 border-blue-400 hover:-translate-y-2">
+                        <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+                          
+                          <p className="text-sm text-gray-900">
+                         Obtener en 2023 la certificación del sistema de gestión de calidad y mantenerla en 2024.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="duration-300 transform bg-white border-l-4 border-blue-400 hover:-translate-y-2">
+                        <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+                         
+                          <p className="text-sm text-gray-900">
+                           Brindar capacitación y adiestramiento al 100 % del personal de la compañía para el desarrollo de sus habilidades en 2023.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="duration-300 transform bg-white border-l-4 border-blue-400 hover:-translate-y-2">
+                        <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+                         
+                          <p className="text-sm text-gray-900">
+                          Mantener en 2023 el control de nuestros procesos dentro de los parámetros establecidos por la organización de acuerdo con sus respectivos indicadores de desempeño.
+                          </p>
+                        </div>
+                      </div>
+                      <div className="duration-300 transform bg-white border-l-4 border-blue-400 hover:-translate-y-2">
+                        <div className="h-full p-5 border border-l-0 rounded-r shadow-sm">
+                         
+                          <p className="text-sm text-gray-900">
+                          Mantener contratado al 90 % del personal de limpieza para no afectar el desarrollo de las operaciones ni del programa de trabajo de 2023.
+                          </p>
+                        </div>
+                      </div>
+                    </div>                    
                   </div>
+                 
       </div>
     )
   };
